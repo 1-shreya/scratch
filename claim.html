@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Health Insurance Claim</title>
+    <link rel="stylesheet" href="claim.css">
+</head>
+<body>
+    <header>
+        <h1>Health Insurance Claim</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Claim Information</h2>
+            <form>
+                <label for="claim_number">Claim Number:</label>
+                <input type="text" id="claim_number" name="claim_number"><br><br>
+                <label for="patient_name">Patient Name:</label>
+                <input type="text" id="patient_name" name="patient_name"><br><br>
+                <label for="date_of_service">Date of Service:</label>
+                <input type="date" id="date_of_service" name="date_of_service"><br><br>
+                <label for="provider_name">Provider Name:</label>
+                <input type="text" id="provider_name" name="provider_name"><br><br>
+                <label for="service_description">Service Description:</label>
+                <textarea id="service_description" name="service_description"></textarea><br><br>
+                <label for="amount_charged">Amount Charged:</label>
+                <input type="number" id="amount_charged" name="amount_charged"><br><br>
+                <label for="payment_method">Payment Method:</label>
+                <select id="payment_method" name="payment_method">
+                    <option value="cash">Cash</option>
+                    <option value="credit_card">Credit Card</option>
+                    <option value="check">Check</option>
+                </select><br><br>
+                <button type="submit">Submit Claim</button>
+            </form>
+        </section>
+        <section>
+            <h2>Claim Status</h2>
+            <p id="claim_status">Claim Status: Pending</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Health Insurance Company</p>
+    </footer>
+</body>
+</html>

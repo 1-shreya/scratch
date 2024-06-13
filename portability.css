@@ -1,0 +1,63 @@
+.health-insurance-portability {
+    background-color: #f8f8f8;
+    padding: 60px 0;
+  }
+  
+  .health-insurance-portability .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .health-insurance-portability h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .health-insurance-portability p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .health-insurance-portability .features {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .health-insurance-portability .feature {
+    width: 250px;
+    margin: 0 20px;
+  }
+  
+  .health-insurance-portability .feature i {
+    font-size: 40px;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  .health-insurance-portability .feature h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .health-insurance-portability .feature p {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+  
+  .health-insurance-portability .btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .health-insurance-portability .btn:hover {
+    background-color: #0056b3;
+  }
+  
